@@ -8,8 +8,8 @@ function Club(props){
             borderColor: 'black',
             padding: '30px',backgroundColor: '#33C4FF', height: '400px'}}>
             <h5><strong>Name: </strong>{props.name}</h5>
-            <h5><strong>Years Active: </strong>{props.brand}</h5>
-            <h5><strong>About Club: </strong>{props.alc}%</h5>
+            <h5><strong>Years Active: </strong>{props.years}</h5>
+            <h5><strong>About Club: </strong>{props.about}</h5>
         </div>
     );
 }

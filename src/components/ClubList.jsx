@@ -20,4 +20,8 @@ function ClubList(props) {
     );
 }
 
+ClubList.propTypes = {
+    masterList: PropTypes.array
+};
+
 export default ClubList;
